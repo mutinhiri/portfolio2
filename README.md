@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # My Portfolio
->This website is an implementation of design tools 
->Implemenmtation of flexbox
+>This front end design portfolio is an implementation of figma design tools
+>Flexbox is used to arrange elements in positions in this page 
 ## Built With
 
 - HTML5

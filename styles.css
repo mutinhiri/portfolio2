@@ -18,7 +18,7 @@ a {
   margin-top: 30px;
 }
 
-h1 {
+logo {
   flex: 1;
 }
 
@@ -37,4 +37,11 @@ h1 {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
+}
+
+.footer-section {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 17%;
 }
