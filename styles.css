@@ -45,3 +45,8 @@ a {
   justify-content: space-between;
   width: 23%;
 }
+
+@media (max-width: 914px) {
+  .header{display: none;}
+}
+
