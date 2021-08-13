@@ -47,6 +47,5 @@ a {
 }
 
 @media (max-width: 914px) {
-  .header{display: none;}
+  .header { display: none; }
 }
-
