@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    max-width: 380px;
+    padding: 0px;
+    height: 25px;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #6070ff;
+}
+
+.logo-icon {
+    flex: 1;
+}
+
+main {
+    width: 380px;
+}
+.main-image{
+    width: 30%;
+}
+img {
+    width:295px;
+    height: 220px;
+    margin: 20px;
+}
+
+.footer-section {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-section {
+    list-style: none;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 3fr;
+}
+#lang{
+    display: inline;
+}
+   
+
+
