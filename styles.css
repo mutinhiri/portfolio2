@@ -7,7 +7,7 @@ header {
 body {
   overflow-x: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #6070ff;
+  background-image: url(img/header-background-mobile.png);
 }
 
 .logo-icon {
@@ -29,8 +29,8 @@ img {
 }
 
 .footer-section {
-  list-style: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 20%;
   justify-content: space-between;
 }
 
@@ -50,4 +50,8 @@ img {
 
 #lang {
   display: inline;
+}
+
+.contact {
+    background-color: rgb(13, 13, 199);
 }
