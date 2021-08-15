@@ -3,7 +3,7 @@ body {
   height: 718px;
   display: grid;
   font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .my-logo {
@@ -27,7 +27,7 @@ body {
   grid-template-columns: 1fr;
   border: 2px solid grey;
   border-radius: 18px;
-  margin :5px;
+  margin: 5px;
 }
 
 img {
@@ -55,23 +55,23 @@ button {
 
 .contact {
   background: #6070ff;
-  transform: matrix(1, 0, 1, 0, 0);
 }
 
 #contact {
   text-align: center;
   color: white;
   font-weight: 700;
-  size: 40px;
+  font-size: 40px;
   line-height: 55px;
 }
 
 .cont {
   font-weight: 400;
-  size: 20px;
+  font-size: 20px;
   text-align: center;
   line-height: 28px;
 }
+
 .form {
   margin: 24px;
   border-radius: 8px;
@@ -96,7 +96,8 @@ button {
   padding: 4px 12px;
 }
 
-.con:hover,.sem:hover{
+.con:hover,
+.sem:hover {
   color: blue;
 }
 
