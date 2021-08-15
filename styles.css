@@ -33,8 +33,9 @@ main {
 
 img {
   width: 300px;
-  height: 220px;
-  margin: 20px;
+  height: 290px;
+  margin: 10px;
+  border-bottom: 400px;
 }
 
 .footer-section {
@@ -71,4 +72,8 @@ img {
     background-color: blue;
     border: 20px solid rebeccapurple;
     font-size: 30px;
+}
+
+.about {
+    background-color: rgb(13, 13, 199);
 }
