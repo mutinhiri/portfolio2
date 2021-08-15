@@ -1,79 +1,102 @@
-html,body {
-    margin:0px;
-    padding:0px;
+body{
+  width: 375px;
+  height: 718px;
+  display: grid;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif
+  background-color: #FFFFFF;
 }
-header {
+
+.my-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.social {
   display: flex;
-  max-width: 380px;
-  height: 25px;
+  justify-content:space-evenly;
+  align-content: space-around;
 }
 
-.nav-bar{
-    justify-content: space-around;
-    flex: 1;
-}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  border:2px solid grey;
+  border-radius: 18px;
+  margin: 5px
 
-body {
-  overflow-x: hidden;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(img/header-background-mobile.png);
 }
-
-.logo-icon {
-  flex: 1;
-}
-
-main {
-  width: 380px;
-}
-
-.main-image {
-  width: 70%;
-}
-
 img {
-  width: 300px;
-  height: 290px;
-  margin: 10px;
-  border-bottom: 400px;
+  width: 295px;
+  height: 220px;
+  top: 16px;
+  left: 16px;
+  border-radius: 13px;
 }
 
-.footer-section {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  justify-content: space-evenly;
+.space-down {
+  border-bottom: 100px solid transparent;
+}
+
+button{
   padding: 0px;
+  margin: 0px;
+  text-align: start;
+  width: 20%;
 }
-
-
-.text-section {
-  list-style: none;
+.resum{
+  width: 26%;
 }
-
-.navi {
-  display: flex;
-  justify-content: space-between;
-}
-
-.grid1 {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 3fr;
-}
-
-#lang {
-  display: inline;
-}
-
 .contact {
-  background-color: rgb(13, 13, 199);
+  background: #6070ff;
+  transform: matrix(1, 0, -1, 0, 0);
+}
+#contact{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  size: 40px;
+  line-height: 55px;
+}
+.cont {
+  font-weight: 400;
+  size: 20px;
+  text-align: center;
+  line-height: 28px;
+}
+.form {
+  margin: 24px;
+  border-radius: 8px;
 }
 
-.btn:hover {
-    background-color: blue;
-    border: 20px solid rebeccapurple;
-    font-size: 30px;
+#touch{
+  width: 100px;
+  align-content: center;
+}
+.logo {
+  background-image: url(img/img1.jpg);
+  width: 45px;
+  border-radius: 167px;
+  align-content: center;
 }
 
-.about {
-    background-color: rgb(13, 13, 199);
+.con:hover,.sem:hover{
+  color: blue;
+}
+
+.sem{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(235, 235, 255, 1);
+  border-radius: 8px;
+  padding: 4px 12px;
+
+}
+
+h1{
+  font-size: 32px;
 }
