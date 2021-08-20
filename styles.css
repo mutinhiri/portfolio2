@@ -1,24 +1,32 @@
 body {
-  padding:2;
+  padding:24px;
   font-family: 'Poppins', sans-serif;
-  width: 375px;
-  height: 718px;
+  /*width: 375px*/;
+  /*height: 718px*/
   background-color: rgba(255, 255, 255, 1);
   display: grid;
-  
+  margin: 0;
 }
 
 .header {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
-.key{
-  height: 40px;
-  position: relative;
-  left:140px
+.logo {
+  font-size: 30px;
+}
+
+.hamb{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.hamb img{
+  max-height: 30px;
 }
 
 .welcome-text {
@@ -27,8 +35,38 @@ body {
   font-weight: bolder;
   align-items: center;
 }
+.intro  h3{
+  font-size: 40px;
+  line-height: 52px;
+  font-weight:900;
+}
 
 .welcome-section {
   background-image: url(img/header-shapes\ mobile@2x.png);
-  display: grid
+  background-repeat: no-repeat;
+  display: grid;
+}
+
+.social-media{
+  display: flex;
+  align-content: flex-start;
+  padding-left: 0px;
+  list-style: none;
+  padding-top: 1px;
+  margin: 0px;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.social-media img {
+  max-height: 30px;
+}
+
+.connect {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  color: blue;
+  font-size: 18px;
+  
 }
